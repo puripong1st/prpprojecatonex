@@ -1,4 +1,3 @@
-from tkinter import Canvas
 
 canvas.create_text(
     240.0,
