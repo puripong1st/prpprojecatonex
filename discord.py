@@ -1,7 +1,3 @@
-
-from discord_webhook import DiscordWebhook
-from PIL import ImageGrab
-
 def generate_hwid():
     raw_hwid = subprocess.check_output('wmic csproduct get uuid', shell=True).strip().decode()
     hwid = raw_hwid.splitlines()[1]
